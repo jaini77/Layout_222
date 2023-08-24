@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box ;
+}
+body{
+    margin-top: 10px;
+}
+/* Base header styles */
+header {
+    background-color: #00000049;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+        justify-content: space-between;
+    align-items: center;
+  }
+  #manu{color: #000000;}
+  .logo {
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .logo {
+      margin-bottom: 10px;
+    }
+  
+    nav {
+      margin-top: 10px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  .background-div {
+   width: 100%;
+    height: 500px; 
+    background-image: url('house.jfif');
+    border-radius:10px ;
+    background-size: cover; 
+    background-position: center;
+  } 
+  #head_text{
+    color: #ffffff;
+    text-align: center;
+    padding-top:10%;
+}
+#row_01 ,#row_03{
+    padding:30px;
+} 
+#row_03{ margin-left:80px;}
+#row_04{ padding:10px;}
+#row_02{ width: 200pz;}
+.center_div  {
+    
+    width: 100%;
+     height: 500px; 
+     background-image: url('map.jfif');
+     border-radius:10px ;
+     background-size: cover; 
+     background-position: center;
+   }
+   #center_img{
+    width: 100%;
+    border-radius:30px;
+ 
+   }
+   p{ color: #ffffff;
+    text-align:left;
+   }
+   #ft{
+    color:black;
+    text-align: left;
+     
+   } 
+   #blog{text-align: center;}
+
+   hr{
+    color: #919191;
+    margin:40px;
+        
+   }
+    #m_text{
+     color: #ffffff;
+     text-align: center;
+     padding-top:10%;
+ }
+  
+ #quote_img{
+    float: right;
+    margin-right:50px ;
+    width: 50px;
+ }
+ #profile   {
+    border: 5px solid rgb(255, 255, 255);  
+    background-color: #c7c7c73c;
+ }
+#last_footer{
+    float: left;
+    color: #000000  ;
+}
+#img_footer{
+  width: 60px;
+  margin-right: 20px;
+  float: right;
+}
+#footer{
+  margin-top:20%;
+  margin:0px ;
+}
+.footer_p{
+  background-color: #91919152;
+  padding: 50px;
+    box-shadow: 10px 10px;
+    border-radius: 10px;
+}
+
+
+
+.input_f{
+  padding-top:10px;
+  width:100%;
+}
